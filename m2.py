@@ -12,6 +12,8 @@ rb_ans3 = QRadioButton('3')
 rb_ans4 = QRadioButton('4')
 
 lb_question = QLabel('Запитання')
+lb_question.setStyleSheet('color:#0A09D6; font-size:20px')
+window.setStyleSheet('background:#95b2bf')
 lb_rest = QLabel('хвилин')
 lb_result = QLabel('Правильно')
 lb_right_answer = QLabel ('Відповідь')
